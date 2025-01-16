@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color:#2e2e2e ;
+    background-color: #fff8e1;
+}
+.content{
+    padding: 43px 43px;
+}
+li span{
+    /* color: #2e2e2e; */
+    font-size: x-large;
+    font-family: "Merriweather", serif;
+}
+.tile{
+    font-size: 4vw;
+}
+.menubar p{
+    color: #fff9f0;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 6vw;
+    font-family: "Merriweather", serif;
+    font-weight:lighter;
+    text-shadow: 0px 6px 10px rgba(0,0,0);
+}
+.menubar{
+    background-color: coral;
+    height: 15vh;
+}
+.checkbox{
+    cursor: pointer;
+}
+.butn{
+    color: white;
+    background-color: teal;
+    text-decoration: none;
+    border: 0;
+    box-shadow: black;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.6);
+    transition: all 0.3 ease;
+    
+}
+.b1:hover{
+    width: 76px;
+    font-size: larger;
+    border-radius: 30px;
+    height: 30px;
+    background-color: #088e89;
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.5);
+}
+#inputBox{
+    width: fit-content;
+    height: 20px;
+}
+.b1{
+    width: 70px;
+    height: 25px;
+    font-size: larger;
+    border-radius: 30px;
+}
+.show img{
+    width: 10px;   
+    cursor: pointer;
+}
+.show img:hover{
+    width: 12px;
+}
+.btn{
+    visibility: hidden;
+}
+.check{
+    cursor: pointer;
+}
+@media(max-width:680px){
+ body{
+    width: 100vw;
+    height: 100vh;
+    /* border: 10px rgb(238, 238, 155) solid; */
+ }
+ .menubar p{
+    text-shadow: 0px 6px 12px rgba(0,0,0);
+ }
+ .menubar{
+    height: 5vh;
+ }
+ .dis{
+    position: relative;
+
+ }
+ .text-item span{
+    padding: 10px 20px;
+    font-family: "Merriweather", serif;
+}
+
+ .b1{
+    width: 55px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+.b1:hover{
+    width: 56px;
+    font-size: 20px;
+    border-radius: 30px;
+    height: 30px;
+}
+}
+@media(max-width:350px){
+    body{
+        width: 100vw;
+    }
+    .b1{
+        font-size: small;
+        width: 45px;
+    }
+    .menubar p{
+        padding: 0 20px;
+    }
+   .content{
+        padding: 40px 20px;
+   }
+}
+li.completed {
+    color: #888888;
+    
+    text-decoration: line-through  #888888;
+    
+}
